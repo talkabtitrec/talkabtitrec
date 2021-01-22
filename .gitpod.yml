@@ -1,0 +1,3 @@
+tasks:
+  - init: how o creat a gitpod.yml
+    command: gitpod start
