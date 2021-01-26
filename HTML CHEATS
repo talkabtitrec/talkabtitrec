@@ -4,8 +4,7 @@ CLICK ICONS FOR SHOPPING CART, SEARCH ETC. = <i class>  </i>, <i class="fa fa-se
 
 CLICKABLE TEXT LINK = <a href="link"> link name </a>, <a href="link" class="w3-bar-item w3-button">ACC</a>
 
-DROP DOWN LIST = 
-<a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+DROP DOWN LIST = <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
       LINK NAME <i class="fa fa-caret-down"></i> </a>
 
 PRODUCT GRID = <!-- Product grid -->
@@ -20,3 +19,18 @@ PRODUCT GRID = <!-- Product grid -->
         <p>Mega Ripped Jeans<br><b>$19.99</b></p>
       </div>
     </div>
+
+CONTACT SECTION = <div class="w3-col s4">
+        <h4>Contact</h4>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="w3-button w3-block w3-black">Send</button>
+        </form>
+      </div>
+
+MAKE A ROW/LIST UP/DOWN FOR LINKS, TEXT ETC. = <div class="w3-row-padding">
+
+MAKE A COLUMN LEFT/RIGHT FOR LINKS, TEXT ETC. = <div class="w3-col s4">
