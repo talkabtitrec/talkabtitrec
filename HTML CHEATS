@@ -1,0 +1,22 @@
+A RIGHT POINTING ARROW FOR LINKS/ LISTS = <i class="fa fa-caret-right w3-margin-right">
+
+CLICK ICONS FOR SHOPPING CART, SEARCH ETC. = <i class>  </i>, <i class="fa fa-search"></i>
+
+CLICKABLE TEXT LINK = <a href="link"> link name </a>, <a href="link" class="w3-bar-item w3-button">ACC</a>
+
+DROP DOWN LIST = 
+<a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+      LINK NAME <i class="fa fa-caret-down"></i> </a>
+
+PRODUCT GRID = <!-- Product grid -->
+  <div class="w3-row w3-grayscale">
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="IMAGENAME.jpg" style="width:100%">
+        <p>my fat pussy<br><b>PRICE ETC...</b></p>
+      </div>
+      <div class="w3-container">
+        <img src="/w3images/jeans2.jpg" style="width:100%">
+        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+      </div>
+    </div>
